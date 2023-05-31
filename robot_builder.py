@@ -13,13 +13,13 @@ def rectangle(horizontal,vertical,color):
     t.penup()
     
 t.speed('slow')
-t.bgcolor('Dodger blue')
+t.bgcolor('purple')
 
 #feet
 t.goto(-100,-150)
-rectangle(50,20,'blue')
+rectangle(50,20,'Hot pink')
 t.goto(-30,-150)
-rectangle(50,20,'blue')
+rectangle(50,20,'Hot pink')
 
 #legs
 t.goto(-25,-50)
@@ -59,7 +59,6 @@ rectangle(5,5,'black')
 
 #mouth
 t.goto(-65,135)
-t.right(5)
 rectangle(40,5,'black')
    
 t.hideturtle()
